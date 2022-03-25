@@ -1,3 +1,3 @@
 # 👨‍💻 MimicAPI
 
-### Projeto API criado durante o curso de Web API da Alura
+ Projeto API criado durante o curso de Web API da Alura
