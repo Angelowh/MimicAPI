@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MimicAPI</name>
+    </assembly>
+    <members>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.ObterPalavras(MimicAPI.Helpers.PalavraUrlQuery)">
+            <summary>
+            Obtem todas as palavras registradas no banco de dados
+            </summary>
+            <param name="query">Filtros de pesquisa</param>
+            <returns>Todas as palavras do banco de dados</returns>
+        </member>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.Obter(System.Int32)">
+            <summary>
+            Obtem uma única palavra do banco de dados
+            </summary>
+            <param name="id">Identificador da palavra</param>
+            <returns>Uma palavra com seus atributos</returns>
+        </member>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.Cadastrar(MimicAPI.V1.Models.Palavra)">
+            <summary>
+            Insere uma palavra no banco de dados
+            </summary>
+            <param name="palavra">Objeto palavra</param>
+            <returns>Retorna a palavra juntamente de seu id</returns>
+        </member>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.Atualizar(System.Int32,MimicAPI.V1.Models.Palavra)">
+            <summary>
+            Modifica uma palavra do banco
+            </summary>
+            <param name="id">Identificador da palavra</param>
+            <param name="palavra">Objeto palavra</param>
+            <returns></returns>
+        </member>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.Deletar(System.Int32)">
+            <summary>
+            Exclui uma palavra do banco
+            </summary>
+            <param name="id">Identificador da palavra</param>
+            <returns></returns>
+        </member>
+        <member name="M:MimicAPI.V2.Controllers.PalavrasController.ObterPalavras">
+            <summary>
+            Obtem todas as palavras registradas no banco de dados
+            </summary>
+            <param name="query">Filtros de pesquisa</param>
+            <returns>Todas as palavras do banco de dados</returns>
+        </member>
+    </members>
+</doc>
