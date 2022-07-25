@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tC6wjKeoCTfQQ5UJoQoqFhHZVxqCPGyRD893/bntX8bUNHG2AKoTcXU95wO7MKuUG5ngp8BKEtKEqwEMF1PTPg==",
+  "dgSpecHash": "f4qI99Nw9pl4BJYBuw9ji86EG0KLazBHO5uXAnP4sIiHZDfSQmf4qrT3wHtGnVNYCh3TYZgXjFU35eO3+eGbJA==",
   "success": true,
   "projectFilePath": "D:\\Documentos\\BackEnd\\C#\\estudos\\asp.net-core\\web-api\\MimicAPI\\MimicAPI\\MimicAPI.csproj",
   "expectedPackageFiles": [
@@ -118,11 +118,7 @@
     "C:\\Users\\Pedro\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Pedro\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Pedro\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Pedro\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Pedro\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
-    "C:\\Users\\Pedro\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Pedro\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Pedro\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\Pedro\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

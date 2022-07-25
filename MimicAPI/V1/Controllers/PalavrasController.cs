@@ -86,7 +86,7 @@ namespace MimicAPI.V1.Controllers
         [HttpGet("{id}", Name = "ObterPalavra")]
         public ActionResult Obter(int id)
         {
-            var obj = _repository.Obter(id);
+            var obj = _repository.Obter(id)
             if (obj == null)
             {
                 return NotFound();
