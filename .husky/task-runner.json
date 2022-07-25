@@ -1,19 +1,30 @@
 {
+   "variables": [
+      {
+         "name": "root-dir",
+         "command": "cmd",
+         "args": ["/c", "dir", "/b"]
+      }
+   ],
    "tasks": [
       {
-         "name": "dotnet-format-example",
+         "name": "commit-message-linter",
          "command": "dotnet",
-         "args": [ "dotnet-format", "--include", "${staged}" ],
-         "include": [ "**/*.cs", "**/*.vb" ]
+         "args": ["husky", "exec", ".husky/csx/commit-lint.csx", "--args", "${args}"]
       },
       {
-         "name": "welcome-message-example",
-         "command": "bash",
-         "args": [ "-c", "echo Husky.Net is awesome!" ],
-         "windows": {
-            "command": "cmd",
-            "args": ["/c", "echo Husky.Net is awesome!" ]
-         }
+         "name": "dotnet-format",
+         "command": "dotnet",
+         "group": "pre-commit",
+         "args": ["dotnet-format", "--include" , "${staged}"],
+         "include": ["**/*.cs"]
+      },
+      {
+         "name": "echo staged files",
+         "pathMode": "absolute",
+         "command": "cmd",
+         "group": "pre-commit",
+         "args": [ "/c", "echo", "${staged}"]
       }
    ]
 }

@@ -75,7 +75,7 @@ namespace MimicAPI.V1.Controllers
 
             return Ok(lista);
         }
-        
+
         /// <summary>
         /// Obtem uma única palavra do banco de dados
         /// </summary>
@@ -86,7 +86,7 @@ namespace MimicAPI.V1.Controllers
         [HttpGet("{id}", Name = "ObterPalavra")]
         public ActionResult Obter(int id)
         {
-            var obj = _repository.Obter(id)
+            var obj = _repository.Obter(id);
             if (obj == null)
             {
                 return NotFound();
@@ -141,11 +141,11 @@ namespace MimicAPI.V1.Controllers
         [HttpPut("{id}", Name = "AtualizarPalavra")]
         public ActionResult Atualizar(int id, [FromBody] Palavra palavra)
         {
-           /* var obj = _repository.Obter(id);
-            if (obj == null)
-            {
-                NotFound();
-            }*/
+            /* var obj = _repository.Obter(id);
+             if (obj == null)
+             {
+                 NotFound();
+             }*/
 
             if (palavra == null)
             {
@@ -158,8 +158,8 @@ namespace MimicAPI.V1.Controllers
             }
 
             palavra.Id = id;
-           /* palavra.Ativo = obj.Ativo;
-            palavra.Criado = obj.Criado;*/
+            /* palavra.Ativo = obj.Ativo;
+             palavra.Criado = obj.Criado;*/
             palavra.Atualizado = DateTime.Now;
             _repository.Atualizar(palavra);
 
